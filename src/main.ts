@@ -1,17 +1,15 @@
 import './style.css'
 
-import { charmander } from './bases/04-inyection'
+import { charmander} from './bases/05-decorators'
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
   
   <h1>
-  Hola !
+  Hola ${charmander.id} ${charmander.name}!
   </h1>
-  <h1>
-  ${charmander.name} ${charmander.id}
-  </h1>
+  
   </hr> 
   </div>
 `
