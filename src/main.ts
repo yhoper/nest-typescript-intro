@@ -1,6 +1,6 @@
 import './style.css'
 
-import { charmander} from './bases/05-decorators'
+import { charmander} from './bases/06-decorators'
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
